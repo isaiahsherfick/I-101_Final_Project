@@ -68,3 +68,32 @@ hr
 	margin-left: 5%;
 	margin-right: 5%;
 }
+.quote
+{
+	font-size:1.5em;
+	font-family:"Raleway"; 
+}
+.attribution
+{
+	font-size:1.25em;
+	padding-top: 10px;
+	font-family:"Ubuntu";
+}
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+	margin-top: 5%;
+}	
+.graph
+{
+	height: 400px;
+	width: auto;
+}
+.data
+{
+	height: 200px;
+	width: auto;
+}

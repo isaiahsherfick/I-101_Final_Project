@@ -8,7 +8,7 @@
 		</title>
 	</head>
 	<body>
-		<h1>
+		<h1 id="DJFindr" onmouseover="make_red()" onmouseout="color_back()">
 			DJFindr
 		</h1>
 		<div class="linksDiv">
@@ -24,22 +24,31 @@
 			<h2>
 				Streamlining The Party Scene 
 			</h2>
-			<img alt="STOCK PHOTO" src="images/dj.jpg"/>
+			<img alt="Sick picture of a DJ and cool lights" src="images/dope.jpg"/>
 			<p>It's happened to the best of us, hasn't it? You're planning an absolute banger of a party, everyone's gonna be there, it's going to be amazing. You've got everything in order: the drinks, the food, the activities... and then it dawns on you: you forgot to hire a DJ. Now you have two days to hire a good DJ who's in your price range. What are you going to do?</p>
 			<h2>
 				Introducing DJFindr
 			</h2>
-			<img alt="STOCK PHOTO" src="images/dj2.jpg"/>
+			<img alt="Picture of people dancing at a party" src="images/dance.jpg"/>
 			<p>DJFindr is the revolutionary new application from I-101Group1 inc. Inspired by "swipe" applications like Tinder, DJFindr can quickly pair <i>you</i> with the <i>right</i> DJ. No more navigating novice Wordpress sites, Facebook pages, and Twitter feeds trying to figure out how to hire somebody; just swipe right on their DJ profile on DJFindr and they'll be notified that you'd like to hire them! After receiving a right swipe, a DJ has two days to get back to you, or we disable ads in the app for a week <i> at no cost to you!</i></p>
 		</div>
 		<hr/>
 		<div class="bottomStuff">
 			<span class="finePrint">
-				<p>Isaiah Sherfick, Pronoy Datta, Drew Crawford</p>
+				<p><a href="isaiah'swebpage">Isaiah Sherfick</a>, <a href="pronoyswebpage">Pronoy Datta</a>, <a href="drewswebpage">Drew Crawford</a></p>
 			</span>
 		</div>
 	<script>
-	//JS goes here
+		function make_red()
+		{
+			var x = document.getElementById("DJFindr");
+			x.style.color = 'red';
+		}
+		function color_back()
+		{
+			var x = document.getElementById("DJFindr");
+			x.style.color = 'black';
+		}
 	</script>
 	</body>
 </html>
